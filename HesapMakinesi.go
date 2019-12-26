@@ -25,11 +25,11 @@ func main() {
 	var sayi2 int
 basla:
 	fmt.Print("İlk Sayıyı Giriniz : ")
-	fmt.Scanf("%d", &sayi1)
+	fmt.Scan(&sayi1)
 	fmt.Print("İkinci Sayıyı Giriniz : ")
-	fmt.Scanf("%d", &sayi2)
+	fmt.Scan(&sayi2)
 	fmt.Println("Toplama İşlemi İçin : 1 \n Çıkarma İşlemi İçin : 2 \n Çarpma İşlemi İçin : 3 \n Bölme İşlemi İçin : 4 giriniz")
-	fmt.Scanf("%d", &islem)
+	fmt.Scan(&islem)
 	switch islem {
 	case 1:
 		fmt.Println("Toplama İşleminizin Sonucu :", toplama(sayi1, sayi2))
@@ -45,7 +45,7 @@ basla:
 	}
 	var tekrar int
 	fmt.Println("Başka işlem yapmak ister misiniz? Evet İçin 1, Hayır İçin 2 Giriniz")
-	fmt.Scanf("%d", &tekrar)
+	fmt.Scan(&tekrar)
 	if tekrar == 1 {
 		goto basla
 	}
