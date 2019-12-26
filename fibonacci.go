@@ -22,7 +22,7 @@ func main() {
 	fmt.Println (fibonacci[1])
 
 	for i=2; i < sayi; i++ {  // for döngüsü ile fibonacci dizisinin ikinci hanesinden başlanması istenildi ve 
-												//son hane olan fibonacci[girilen sayıya kadar] kadar gitmesi istendi
+				  //son hane olan fibonacci[girilen sayıya kadar] kadar gitmesi istendi
 
 		fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]  // 2.hanesinin değerini ondan önceki 2 hane ile toplayarak elde etmesi istenildi
 		fmt.Println (fibonacci[i]) // ekrana yazdırıldı
