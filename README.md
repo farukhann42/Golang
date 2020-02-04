@@ -25,3 +25,5 @@ Varsayılan olarak statik olarak bağlanmış native binary'ler, ekstra bağıml
 
 # Söz Dizimi
 Go'nun söz dizimi, C'den yapılan değişiklikleri içerir, kodu kısa ve okunabilir kılmayı amaçlar. Birleştirilmiş declaration ve başlatma operatörü, programcılara i := 3 ya da s := "bazı kelimeler" yazarak, herhangi bir tür belirtimine ihtiyaç duyulmadan değişken tanımlamasını sağlar. Noktalı virgüller hala ifadeleri sonlandırır fakat satır sonlarında kullanılmasına gerek yoktur. Fonksiyonlar birden fazla değerler döndürebilir (return result, err).
+
+KAYNAK : https://tr.wikipedia.org/wiki/Go_(programlama_dili)
